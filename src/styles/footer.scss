@@ -1,0 +1,67 @@
+@import "colors";
+
+
+footer{
+    background-color: $first;
+    height: 175px;
+    width: 100%;
+    color: $dark ;
+    display: grid;
+    // grid-template-columns: 4fr 1fr;
+    grid-template-columns: 1fr;
+
+    padding: 2rem;
+
+    >div{
+        >h5{
+            font: 300 2rem $text1;
+             margin: 1rem 0;
+              text-align:center;}
+    }
+
+    article{
+        display:flex;
+        margin: 1rem 0;
+        flex-wrap: wrap;
+        justify-content: center;
+
+        > div{
+           
+            margin: 0.2rem;
+            height: 5rem;
+            width: 5rem;
+            background-color: $first;
+            border-radius: 25% 25% 25% 25%;
+            display: flex;
+            flex-direction: column;
+            align-items:center;
+            justify-content:center;
+            color: $dark; 
+            cursor:pointer;
+            transition: all 0.5s;
+            
+            &:hover{
+                filter: invert(1);
+            transform: translateY(-10px);
+            }
+
+           
+
+            svg{
+                
+                font-size: 4rem;
+                color: black;
+            }
+
+        }
+    }
+
+    div{
+        >h1{ font: 300 1.5rem $text2;
+           text-transform: uppercase;
+            color: $dark;}
+        
+
+    } 
+ 
+}
