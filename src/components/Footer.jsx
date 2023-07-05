@@ -27,7 +27,7 @@ const Footer = () => {
             </div>
 
             <div>
-            <a href="https://github.com/chetanps3110?tab=repositories" target="blank">
+            <a href="https://github.com/Chetan-P-Sonawane" target="blank">
             <AiFillGithub/>
             </a>
             </div>
